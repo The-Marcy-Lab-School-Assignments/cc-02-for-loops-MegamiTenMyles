@@ -20,12 +20,12 @@ function countEveryEven(number){
       }
   }
   }
-countEveryEven(23)
+//countEveryEven(23)
 
 //4
 function countEveryOdd(number){
    for(let i = 1; i <= number; i++){
-      if (i % 2 != 0){
+      if (i % 2 !== 0){
           console.log(i)
       }
   }
@@ -34,7 +34,7 @@ function countEveryOdd(number){
 //5 
 function countEvens(numbers){
     const evens = numbers.filter(x => x % 2 === 0)
-    return evens
+    return evens.length
     
   
 }
